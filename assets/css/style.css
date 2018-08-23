@@ -1,0 +1,30 @@
+/*universal selector*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*h1 is a type selector*/
+h1{
+	color: #191919;
+}
+
+/*id selector*/
+#targeted{
+	font-size: 3em;
+}
+
+/*class selector is using dot (.)*/
+
+.head{
+	background-color: #1e93db;
+}
+
+/*attribute target*/
+
+a[target]{
+	text-decoration: none;
+}
+

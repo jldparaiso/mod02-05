@@ -1,0 +1,37 @@
+a:link{
+
+	color: red;
+}
+
+a:visited{
+	color: yellow;
+}
+
+a:focus{
+	color: green;
+}
+
+a:active{
+	color: pink;
+}
+
+input:focus{
+	background-color: red;
+}
+
+input:active{
+	background-color: blue;
+}
+
+a:hover{
+	font-size: 24px;
+}
+
+button:active{
+	background-color: green;
+	color: white;
+}
+
+button:hover{
+	background-color: green;
+	color: white;

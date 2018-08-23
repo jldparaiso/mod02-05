@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-EDGE">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+
+	<div class="head">
+		<p>target</p>
+		<h1>This is an introduction to CSS</h1>
+		<a href="https://google.com">CSS BASICS</a>
+		
+	</div>
+
+	<p id="targeted">I will be targetted instead.</p>
+	<a href="#">Green</a>
+	<a href="https://google.com">Google</a>
+	<a href="https://google.com" target="_blank">Google2</a>
+	<span><p>I am inside the span</p></span>
+
+	<!-- inline style -->
+	<h3 style="text-align: center; font-style: bold; color: red; ">Inline Style</h3>
+	<h3>Inline Without style</h3>
+
+	<div>
+		<h2>new div</h2>
+	</div>
+	<p>im adjacent to the div</p>
+	<p>im am not adjacent</p>
+
+	<style type="text/css">
+	div + p {
+		background-color: #191919;
+		color: #fff;
+		}
+	div ~ p {
+		/*background-color: yellow;*/
+	}	
+
+	div > p {
+		/*letter-spacing: 3em;*/
+	}
+
+	ul li {
+		font-size: 3em;
+	}
+	</style>
+
+	<ul>
+		<li>text</li>
+		<li>text</li>
+		<li>
+			<ol>
+				<li>textalso</li>
+				<li>textalso</li>
+			</ol>
+		</li>
+	</ul>
+
+
+
+
+</body>
+</html>
